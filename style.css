@@ -484,15 +484,33 @@ section {
   color: var(--text-dim);
 }
 
-.projects-placeholder {
-  text-align: center;
-  padding: 2rem;
+/* ================================
+   PROJECT CARDS GRID (new)
+   ================================ */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  gap: 1.25rem;
+}
+
+.project-card {
   background: var(--bg2);
-  border: 1px dashed var(--border);
-  border-radius: 8px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1.5rem;
+  transition: border-color 0.2s;
+}
+
+.project-card:hover {
+  border-color: var(--border-hover);
+}
+
+.project-title-sm {
   font-family: var(--mono);
-  font-size: 0.8rem;
-  color: var(--text-dim);
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #fff;
+  margin: 0.75rem 0 0.5rem;
 }
 
 /* ================================
