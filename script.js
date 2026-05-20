@@ -26,8 +26,9 @@ document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
 // in the hero section
 // ================================
 const phrases = [
-  'git status',
-  'npm run dev',
+  'python main.py',
+  'pip install langchain',
+  'git push origin main',
   'node server.js',
   'cd global-mode'
 ];
