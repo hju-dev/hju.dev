@@ -378,17 +378,17 @@ section {
 }
 
 .road-dash {
-  animation: dashMove 1.8s linear infinite;
+  animation: dashMove 1.2s linear infinite;
 }
 
-.road-dash:nth-child(2) { animation-delay: -0.6s; }
-.road-dash:nth-child(3) { animation-delay: -1.2s; }
+.road-dash:nth-child(2) { animation-delay: -0.4s; }
+.road-dash:nth-child(3) { animation-delay: -0.8s; }
 
 @keyframes dashMove {
   0%   { transform: translateY(-20px); opacity: 0; }
   15%  { opacity: 1; }
   85%  { opacity: 1; }
-  100% { transform: translateY(140px); opacity: 0; }
+  100% { transform: translateY(90px); opacity: 0; }
 }
 
 
