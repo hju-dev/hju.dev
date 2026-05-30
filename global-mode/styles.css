@@ -387,7 +387,7 @@ section {
 
 @keyframes dashMove {
   0%   { 
-    transform: translateY(-40px) scaleY(0.3) scaleX(0.3); 
+    transform: translateY(-20px) scaleY(0.3) scaleX(0.3); 
     opacity: 0; 
   }
   15%  { opacity: 1; }
