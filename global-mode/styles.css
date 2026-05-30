@@ -405,6 +405,11 @@ section {
   50%       { transform: translateY(-6px); }
 }
 
+@keyframes roadPinPulse {
+  0%   { r: 4; opacity: 0.8; }
+  100% { r: 10; opacity: 0; }
+}
+
 .road-pin-pulse {
   animation: roadPinPulse 2s ease-out infinite;
 }
