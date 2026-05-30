@@ -397,12 +397,12 @@ section {
 }
 
 .road-globe-float {
-  animation: globeFloat 6s ease-in-out infinite;
+  animation: roadGlobeFloat 6s ease-in-out infinite;
 }
 
-@keyframes roadPinPulse {
-  0%   { r: 4; opacity: 0.8; }
-  100% { r: 10; opacity: 0; }
+@keyframes roadGlobeFloat {
+  0%, 100% { transform: translateY(0px); }
+  50%       { transform: translateY(-6px); }
 }
 
 .road-pin-pulse {
